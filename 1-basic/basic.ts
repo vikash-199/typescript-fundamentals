@@ -28,7 +28,12 @@ num = true;
 let arr: string[] = ['Vikash', 'kumar'];
 
 let users: (string | number)[];
+// let users:Array<string | number>
 
 users = ['vikash', 'kumar'];
 users = [19, 10];
 users = ['vikash', 10];
+
+//fixed length array
+let nums: [number, string];
+nums = [10, 'Bikash']; //length fixed
